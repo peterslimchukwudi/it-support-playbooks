@@ -1,0 +1,165 @@
+# CCNA-Level Network Labs and Troubleshooting Documentation
+
+## Overview
+This repository documents CCNA-level network configuration labs and real-world troubleshooting scenarios. The focus is on LAN/WAN connectivity, routing and switching fundamentals, bandwidth optimization, authentication, and structured fault isolation.
+
+---
+
+## Lab Environment
+- Cisco Routers and Switches (Lab / Simulator)
+- Windows and Linux endpoints
+- Packet Tracer / GNS3 (Lab-based)
+- Basic enterprise LAN topology
+
+---
+
+## Core Networking Concepts Covered
+- TCP/IP fundamentals
+- IP addressing and subnetting
+- VLAN configuration and inter-VLAN routing
+- DHCP and DNS services
+- LAN and WAN connectivity
+- Network performance optimization
+- Secure network access control
+
+---
+
+## Network Configuration Labs
+
+### 1. IP Addressing and Subnetting
+**Objective:** Design and implement efficient IP addressing schemes.
+
+**Tasks Performed:**
+- Assigned IPv4 addresses to network devices
+- Implemented subnetting to separate departments
+- Verified connectivity using ping and traceroute
+
+**Outcome:**  
+Logical and scalable IP addressing structure.
+
+---
+
+### 2. VLAN Configuration and Inter-VLAN Routing
+**Objective:** Segment network traffic to improve security and performance.
+
+**Tasks Performed:**
+- Created VLANs on access switches
+- Assigned switch ports to VLANs
+- Configured inter-VLAN routing on router or Layer 3 switch
+- Verified communication between VLANs
+
+**Outcome:**  
+Improved traffic segmentation and controlled inter-VLAN communication.
+
+---
+
+### 3. DHCP and DNS Configuration
+**Objective:** Automate IP assignment and name resolution.
+
+**Tasks Performed:**
+- Configured DHCP scopes for multiple VLANs
+- Reserved IP addresses for network devices
+- Verified DNS resolution for internal hosts
+
+**Outcome:**  
+Reliable IP allocation and reduced manual configuration errors.
+
+---
+
+### 4. Bandwidth Expansion and Network Optimization
+**Objective:** Improve network performance under increased load.
+
+**Tasks Performed:**
+- Identified bandwidth bottlenecks
+- Adjusted interface configurations
+- Optimized routing paths
+- Verified performance improvement using network monitoring tools
+
+**Outcome:**  
+Enhanced throughput and improved user experience.
+
+---
+
+### 5. RADIUS Authentication Implementation
+**Objective:** Secure network access using centralized authentication.
+
+**Tasks Performed:**
+- Installed and configured RADIUS authentication (lab environment)
+- Integrated RADIUS with network devices
+- Tested user authentication and authorization
+- Verified access control enforcement
+
+**Outcome:**  
+Centralized and secure user authentication.
+
+---
+
+## Network Troubleshooting Scenarios
+
+### Scenario 1: Host Cannot Reach Default Gateway
+**Troubleshooting Steps:**
+1. Verified IP address configuration
+2. Checked subnet mask and gateway settings
+3. Tested physical and data link connectivity
+4. Validated VLAN assignment
+
+**Resolution:**  
+Corrected IP configuration and restored connectivity.
+
+---
+
+### Scenario 2: Intermittent Network Connectivity
+**Troubleshooting Steps:**
+1. Reviewed interface statistics for errors
+2. Checked duplex and speed mismatches
+3. Monitored traffic patterns
+4. Verified cabling and hardware health
+
+**Resolution:**  
+Resolved interface misconfiguration and stabilized network.
+
+---
+
+### Scenario 3: User Authentication Failure
+**Troubleshooting Steps:**
+1. Verified RADIUS server availability
+2. Checked shared secrets and authentication policies
+3. Reviewed access logs
+4. Retested authentication
+
+**Resolution:**  
+Authentication restored after configuration correction.
+
+---
+
+## Verification and Monitoring Tools Used
+- Ping and Traceroute
+- Interface status and statistics
+- Basic network monitoring utilities
+- Log analysis
+
+---
+
+## Best Practices Applied
+- Layered troubleshooting approach (OSI model)
+- Proper network documentation
+- Secure authentication and access control
+- Change validation and testing
+- Performance monitoring after configuration changes
+
+---
+
+## Outcome and Impact
+- Improved network reliability and performance
+- Reduced downtime through structured troubleshooting
+- Strengthened security and access management
+- Demonstrated CCNA-level competency in real-world scenarios
+
+---
+
+## Role Alignment
+This documentation aligns with:
+- Network Support Engineer
+- NOC Technician
+- IT Support Specialist (Networking Focus)
+- Junior Network Engineer
